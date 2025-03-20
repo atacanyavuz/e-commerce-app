@@ -18,7 +18,7 @@ spring:
       value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
       properties:
         spring.json.trusted.packages: '*'
-        spring.json.type.mapping: orderConfirmation:com.atacanyavuz.ecommerce.kafka.order.OrderConfirmation,paymentConfirmation:com.atacanyavuz.ecommerce.kafka.payment.PaymentConfirmation
+        spring.json.type.mapping: orderConfirmation:com.atacanyavuz.ecommerce.messaging.event.OrderConfirmation,paymentConfirmation:com.atacanyavuz.ecommerce.messaging.event.PaymentConfirmation
   mail:
     host: localhost
     port: 1025
