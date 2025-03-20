@@ -1,4 +1,4 @@
-package com.atacanyavuz.ecommerce.email;
+package com.atacanyavuz.ecommerce.email.template;
 
 import lombok.Getter;
 

@@ -1,6 +1,6 @@
-package com.atacanyavuz.ecommerce.notification;
+package com.atacanyavuz.ecommerce.dto;
 
-import com.atacanyavuz.ecommerce.payment.PaymentMethod;
+import com.atacanyavuz.ecommerce.enums.PaymentMethod;
 import java.math.BigDecimal;
 
 public record PaymentNotificationRequest(

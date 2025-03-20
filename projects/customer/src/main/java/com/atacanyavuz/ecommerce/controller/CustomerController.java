@@ -1,5 +1,8 @@
-package com.atacanyavuz.ecommerce.customer;
+package com.atacanyavuz.ecommerce.controller;
 
+import com.atacanyavuz.ecommerce.dto.CustomerRequest;
+import com.atacanyavuz.ecommerce.dto.CustomerResponse;
+import com.atacanyavuz.ecommerce.service.CustomerService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;

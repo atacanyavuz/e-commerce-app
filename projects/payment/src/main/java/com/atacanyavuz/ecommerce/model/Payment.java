@@ -1,5 +1,6 @@
-package com.atacanyavuz.ecommerce.payment;
+package com.atacanyavuz.ecommerce.model;
 
+import com.atacanyavuz.ecommerce.enums.PaymentMethod;
 import jakarta.persistence.*;
 import lombok.*;
 import org.springframework.data.annotation.CreatedDate;

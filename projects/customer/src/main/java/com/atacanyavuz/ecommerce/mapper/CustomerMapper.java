@@ -1,5 +1,8 @@
-package com.atacanyavuz.ecommerce.customer;
+package com.atacanyavuz.ecommerce.mapper;
 
+import com.atacanyavuz.ecommerce.model.Customer;
+import com.atacanyavuz.ecommerce.dto.CustomerRequest;
+import com.atacanyavuz.ecommerce.dto.CustomerResponse;
 import jakarta.validation.Valid;
 import org.springframework.stereotype.Service;
 

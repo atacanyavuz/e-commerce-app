@@ -1,6 +1,6 @@
-package com.atacanyavuz.ecommerce.notification;
+package com.atacanyavuz.ecommerce.messaging.producer;
 
-import com.atacanyavuz.ecommerce.payment.Payment;
+import com.atacanyavuz.ecommerce.dto.PaymentNotificationRequest;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.kafka.core.KafkaTemplate;

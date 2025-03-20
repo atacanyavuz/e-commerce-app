@@ -1,6 +1,12 @@
-package com.atacanyavuz.ecommerce.product;
+package com.atacanyavuz.ecommerce.service;
 
+import com.atacanyavuz.ecommerce.dto.ProductPurchaseRequest;
+import com.atacanyavuz.ecommerce.dto.ProductPurchaseResponse;
+import com.atacanyavuz.ecommerce.dto.ProductRequest;
+import com.atacanyavuz.ecommerce.dto.ProductResponse;
 import com.atacanyavuz.ecommerce.exception.ProductPurchaseException;
+import com.atacanyavuz.ecommerce.mapper.ProductMapper;
+import com.atacanyavuz.ecommerce.repository.ProductRepository;
 import jakarta.persistence.EntityNotFoundException;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;

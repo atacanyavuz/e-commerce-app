@@ -1,4 +1,4 @@
-package com.atacanyavuz.ecommerce.product;
+package com.atacanyavuz.ecommerce.dto;
 
 import jakarta.validation.constraints.NotNull;
 

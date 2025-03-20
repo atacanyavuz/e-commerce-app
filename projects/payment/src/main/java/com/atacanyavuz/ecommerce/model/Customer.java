@@ -1,4 +1,4 @@
-package com.atacanyavuz.ecommerce.payment;
+package com.atacanyavuz.ecommerce.model;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotNull;

@@ -1,4 +1,6 @@
-package com.atacanyavuz.ecommerce.kafka.payment;
+package com.atacanyavuz.ecommerce.messaging.event;
+
+import com.atacanyavuz.ecommerce.messaging.enums.PaymentMethod;
 
 import java.math.BigDecimal;
 

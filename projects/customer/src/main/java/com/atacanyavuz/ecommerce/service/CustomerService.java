@@ -1,6 +1,11 @@
-package com.atacanyavuz.ecommerce.customer;
+package com.atacanyavuz.ecommerce.service;
 
+import com.atacanyavuz.ecommerce.dto.CustomerRequest;
+import com.atacanyavuz.ecommerce.dto.CustomerResponse;
 import com.atacanyavuz.ecommerce.exception.CustomerNotFoundException;
+import com.atacanyavuz.ecommerce.mapper.CustomerMapper;
+import com.atacanyavuz.ecommerce.model.Customer;
+import com.atacanyavuz.ecommerce.repository.CustomerRepository;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.apache.commons.lang.StringUtils;

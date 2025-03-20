@@ -1,6 +1,6 @@
-package com.atacanyavuz.ecommerce.notification;
+package com.atacanyavuz.ecommerce.repository;
 
-import com.atacanyavuz.ecommerce.kafka.payment.PaymentConfirmation;
+import com.atacanyavuz.ecommerce.model.Notification;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
 public interface NotificationRepository extends MongoRepository<Notification, String> {

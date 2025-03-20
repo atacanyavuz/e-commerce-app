@@ -1,8 +1,11 @@
-package com.atacanyavuz.ecommerce.product;
+package com.atacanyavuz.ecommerce.mapper;
 
-import com.atacanyavuz.ecommerce.category.Category;
+import com.atacanyavuz.ecommerce.model.Category;
+import com.atacanyavuz.ecommerce.dto.ProductPurchaseResponse;
+import com.atacanyavuz.ecommerce.dto.ProductRequest;
+import com.atacanyavuz.ecommerce.dto.ProductResponse;
+import com.atacanyavuz.ecommerce.model.Product;
 import jakarta.validation.Valid;
-import jakarta.validation.constraints.NotNull;
 import org.springframework.stereotype.Service;
 
 @Service

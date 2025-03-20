@@ -1,5 +1,7 @@
-package com.atacanyavuz.ecommerce.payment;
+package com.atacanyavuz.ecommerce.controller;
 
+import com.atacanyavuz.ecommerce.dto.PaymentRequest;
+import com.atacanyavuz.ecommerce.service.PaymentService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;

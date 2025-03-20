@@ -1,8 +1,9 @@
-package com.atacanyavuz.ecommerce.notification;
+package com.atacanyavuz.ecommerce.model;
 
 
-import com.atacanyavuz.ecommerce.kafka.order.OrderConfirmation;
-import com.atacanyavuz.ecommerce.kafka.payment.PaymentConfirmation;
+import com.atacanyavuz.ecommerce.enums.NotificationType;
+import com.atacanyavuz.ecommerce.messaging.event.OrderConfirmation;
+import com.atacanyavuz.ecommerce.messaging.event.PaymentConfirmation;
 import lombok.*;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;

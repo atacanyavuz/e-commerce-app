@@ -1,4 +1,4 @@
-package com.atacanyavuz.ecommerce.customer;
+package com.atacanyavuz.ecommerce.model;
 
 
 import lombok.*;

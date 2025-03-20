@@ -1,4 +1,7 @@
-package com.atacanyavuz.ecommerce.payment;
+package com.atacanyavuz.ecommerce.dto;
+
+import com.atacanyavuz.ecommerce.model.Customer;
+import com.atacanyavuz.ecommerce.enums.PaymentMethod;
 
 import java.math.BigDecimal;
 

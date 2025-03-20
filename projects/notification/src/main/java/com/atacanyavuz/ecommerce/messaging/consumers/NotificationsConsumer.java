@@ -1,11 +1,11 @@
-package com.atacanyavuz.ecommerce.kafka;
+package com.atacanyavuz.ecommerce.messaging.consumers;
 
 import com.atacanyavuz.ecommerce.email.EmailService;
-import com.atacanyavuz.ecommerce.kafka.order.OrderConfirmation;
-import com.atacanyavuz.ecommerce.kafka.payment.PaymentConfirmation;
-import com.atacanyavuz.ecommerce.notification.Notification;
-import com.atacanyavuz.ecommerce.notification.NotificationRepository;
-import com.atacanyavuz.ecommerce.notification.NotificationType;
+import com.atacanyavuz.ecommerce.messaging.event.OrderConfirmation;
+import com.atacanyavuz.ecommerce.messaging.event.PaymentConfirmation;
+import com.atacanyavuz.ecommerce.model.Notification;
+import com.atacanyavuz.ecommerce.repository.NotificationRepository;
+import com.atacanyavuz.ecommerce.enums.NotificationType;
 import jakarta.mail.MessagingException;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

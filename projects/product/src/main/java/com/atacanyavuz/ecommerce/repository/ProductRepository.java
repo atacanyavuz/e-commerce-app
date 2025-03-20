@@ -1,5 +1,6 @@
-package com.atacanyavuz.ecommerce.product;
+package com.atacanyavuz.ecommerce.repository;
 
+import com.atacanyavuz.ecommerce.model.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

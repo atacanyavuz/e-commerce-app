@@ -1,4 +1,4 @@
-package com.atacanyavuz.ecommerce.kafka.payment;
+package com.atacanyavuz.ecommerce.messaging.enums;
 
 public enum PaymentMethod {
     PAYPAL,

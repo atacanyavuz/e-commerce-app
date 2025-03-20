@@ -1,6 +1,5 @@
-package com.atacanyavuz.ecommerce.product;
+package com.atacanyavuz.ecommerce.model;
 
-import com.atacanyavuz.ecommerce.category.Category;
 import jakarta.persistence.*;
 import lombok.*;
 

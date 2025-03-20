@@ -1,4 +1,4 @@
-package com.atacanyavuz.ecommerce.kafka.order;
+package com.atacanyavuz.ecommerce.messaging.dto;
 
 public record Customer(
         String id,

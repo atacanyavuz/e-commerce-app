@@ -1,5 +1,7 @@
-package com.atacanyavuz.ecommerce.payment;
+package com.atacanyavuz.ecommerce.mapper;
 
+import com.atacanyavuz.ecommerce.dto.PaymentRequest;
+import com.atacanyavuz.ecommerce.model.Payment;
 import org.springframework.stereotype.Service;
 
 @Service

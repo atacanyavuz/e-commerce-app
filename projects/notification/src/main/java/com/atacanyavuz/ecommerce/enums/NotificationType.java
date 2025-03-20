@@ -1,4 +1,4 @@
-package com.atacanyavuz.ecommerce.notification;
+package com.atacanyavuz.ecommerce.enums;
 
 public enum NotificationType {
     ORDER_CONFIRMATION,

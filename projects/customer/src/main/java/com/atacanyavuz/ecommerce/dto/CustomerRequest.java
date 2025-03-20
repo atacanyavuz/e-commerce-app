@@ -1,6 +1,7 @@
-package com.atacanyavuz.ecommerce.customer;
+package com.atacanyavuz.ecommerce.dto;
 
 
+import com.atacanyavuz.ecommerce.model.Address;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotNull;
 
